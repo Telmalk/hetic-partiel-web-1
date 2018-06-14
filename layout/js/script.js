@@ -14,7 +14,6 @@ document.addEventListener('scroll', function(event) {
         }
 
     } else  {
-        //console.log(event.pageY);
         header.classList.remove("headerHidden");
     }
 

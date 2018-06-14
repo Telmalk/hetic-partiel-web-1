@@ -975,6 +975,10 @@ textarea:focus,
 	color: inherit;
 }
 
+.bgHeader {
+	background: url(../../images/demo/backgrounds/01.png);
+}
+
 .headerHidden {
 	position: fixed;
 	top: -150px;
