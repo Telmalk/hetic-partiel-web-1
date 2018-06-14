@@ -1,4 +1,5 @@
 var header = document.querySelector('.wrapperHead');
+var menuBurguer = document.querySelector('.burguer');
 var savePosScroll = 133;
 
 document.addEventListener('scroll', function(event) {
@@ -12,9 +13,17 @@ document.addEventListener('scroll', function(event) {
             header.classList.add("headerActive");
             savePosScroll = event.pageY;
         }
-
     } else  {
         header.classList.remove("headerHidden");
     }
 
+});
+
+menuBurguer.addEventListener('click', function () {
+    var nav = document.querySelector("#mainav");
+    var close = document.querySelector(".close");
+    nav.style.left = 0;
+    close.addEventListener("click", function () {
+        nav.style.left = "";
+    })
 });
