@@ -27,3 +27,4 @@ menuBurguer.addEventListener('click', function () {
         nav.style.left = "";
     })
 });
+
