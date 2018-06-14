@@ -975,6 +975,18 @@ textarea:focus,
 	color: inherit;
 }
 
+.headerHidden {
+	position: fixed;
+	top: -150px;
+	transition: top .3s ease;
+}
+
+.headerActive {
+	top: 0;
+	transition: top .3s ease;
+
+}
+
 
 /* Page Intro */
 
