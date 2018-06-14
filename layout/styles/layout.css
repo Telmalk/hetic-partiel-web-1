@@ -896,6 +896,7 @@ textarea:focus,
 .overlay {
 	color: #FFFFFF;
 	background-color: inherit;
+
 }
 
 .overlay::after {
@@ -952,6 +953,7 @@ textarea:focus,
 .row3 {
 	color: #7A7A7A;
 	background-color: #FFFFFF;
+
 }
 
 .row4 {
@@ -985,9 +987,25 @@ textarea:focus,
 }
 
 .bgHeader {
-	background: url(../../images/demo/backgrounds/01.png);
+	background: url(../../images/demo/backgrounds/luxe1.jpg);
 }
 
+.bgded {
+	background: url(../../images/demo/backgrounds/luxe1.jpg);
+
+}
+
+a:hover{
+	background-color: #CF9C67;
+	color: white;
+	transition: background-color .3s ease, color .3s ease;
+}
+
+button:hover {
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	transition: background-color .3s ease, color .3s ease;
+}
 /*.wrapperHead {
 	position: absolute;
 	top: 0;
@@ -1207,6 +1225,21 @@ table a,
 	background-color: inherit;
 }
 
+.imgSquare {
+	width: 222px;
+	height: 222px;
+}
+
+.imgRec {
+	width: 222px;
+	height: 100px;
+}
+
+.imgArticle {
+	width: 306px;
+	height: 229px;
+}
+
 
 /* ------------------------------------------------------------------------------------------------------------ */
 
@@ -1261,7 +1294,7 @@ table a,
 		right: 0;
 		transition: left .4s ease;
 		background: #0E76A8;
-		z-index: 400;
+		z-index: 4000;
 	}
 	.close {
 		visibility: visible;
@@ -1280,7 +1313,9 @@ table a,
 		display: block;
 	}
 	#breadcrumb {}
-	.container {}
+	.container {
+		margin: 0 auto;
+	}
 	#comments input[type="reset"] {
 		margin-top: 10px;
 	}
